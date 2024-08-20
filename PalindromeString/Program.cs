@@ -1,4 +1,5 @@
 ﻿using PalindromeString;
+using System;
 
 Console.WriteLine("Hello, World!");
 
@@ -16,3 +17,5 @@ Action<string, string> testFunc = (string s1, string s2) =>
 
 testFunc(test1, test2);
 testFunc(test1, test3);
+
+Console.ReadLine();
